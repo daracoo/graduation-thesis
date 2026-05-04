@@ -159,25 +159,33 @@ result = recommend(
 ---
 
 ## 📈 Example Output
-╔═══════════════════════════════════════════════════════╗
-║           FITNESS RECOMMENDATION SYSTEM               ║
-╠═══════════════════════════════════════════════════════╣
-║  Age: 28  |  Gender: Male  |  BMI: 25.2               ║
-║  Predicted Fitness Level : Intermediate               ║
-║  Estimated Calorie Burn  : 952 kcal/session           ║
-║  Goal: Bodybuilding  |  Equipment: Full Gym           ║
-║  Program Length: 12 weeks  |  75 min/session          ║
-╠═══════════════════════════════════════════════════════╣
-║  TOP 5 RECOMMENDED PROGRAMS                           ║
-║  1. [Program Name]  Similarity: 0.97                  ║
-║  2. [Program Name]  Similarity: 0.95                  ║
-║  ...                                                  ║
-╠═══════════════════════════════════════════════════════╣
-║  WEEK 1 · DAY 1                                       ║
-║   1. Bench Press (Barbell)   3 sets × 8 reps          ║
-║   2. Squat (Barbell)         4 sets × 6 reps          ║
-║   ...                                                 ║
-╚═══════════════════════════════════════════════════════╝
+
+### 🧍 User Profile
+- **Age:** 28  
+- **Gender:** Male  
+- **BMI:** 25.2  
+
+### 📊 Predictions
+- **Fitness Level:** Intermediate  
+- **Estimated Calorie Burn:** 952 kcal/session  
+
+### 🎯 Program Details
+- **Goal:** Bodybuilding  
+- **Equipment:** Full Gym  
+- **Program Length:** 12 weeks  
+- **Session Duration:** 75 min  
+
+### 🏆 Top 5 Recommended Programs
+1. **[Program Name]** — Similarity: 0.97  
+2. **[Program Name]** — Similarity: 0.95  
+3. ...  
+
+### 🗓️ Sample Workout Plan
+**Week 1 · Day 1**
+1. Bench Press (Barbell) — 3 sets × 8 reps  
+2. Squat (Barbell) — 4 sets × 6 reps  
+3. ...
+
 ---
 
 ## 🎓 Academic Context
